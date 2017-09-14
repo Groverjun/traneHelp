@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="app/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="app/css/TradeHelp.css"/>
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div id="information">
+			<div class="container">
+				<!--头部导航-->
+				<div class="btn-group btn-group-justified" role="group" id="informationHead">
+					<a href="#" class="btn btn-default">系统消息</a>
+					<a href="#" class="btn btn-default">商机消息<span class="radios">1</span></a>
+					<a href="#" class="btn btn-default">服务消息</a>
+				</div>
+				<!--表格-->
+				<div class="informationBody">
+					<table class="table" id="informationTable">
+						<tr class="text-center">
+							<td>序号</td>
+							<td>时间</td>
+							<td>内容</td>
+						</tr>
+						<tr class="text-center">
+							<td>1</td>
+							<td>2017-07-09-10：55</td>
+							<td data-toggle="modal" href="#informationModal">恭喜您成功开通信融生意帮平台</td>
+						</tr>
+					</table>
+				</div>
+				<!--模态轮播图-->
+			   <div id="informationModal" class="modal fade">  
+			      <div class="modal-dialog">  
+			         <div class="modal-content">  
+			            <!-- 模态框 -->  
+			            <div id="myCarousel" class="carousel slide">     
+			               <!-- 轮播（Carousel）项目 -->  
+			               <div class="carousel-inner" >  
+			                  <div class="item active">  
+			                     <img src="app/img/1.jpg" alt="正面照">   
+			                  </div>  
+			                  <div class="item">  
+			                     <img src="app/img/1.jpg" alt="中控照">  
+			                  </div>  
+			                  <div class="item">  
+			                     <img src="app/img/1.jpg" alt="后面照">   
+			                  </div>  
+			               </div>  
+			               <!-- 轮播（Carousel）导航 -->  
+			               <a class="carousel-control left text-justify" href="#myCarousel"  
+			               data-slide="prev">‹</a>  
+			               <a class="carousel-control right" href="#myCarousel"  
+			               data-slide="next">›</a>  
+			            </div>  
+			         </div>  
+			      </div>  
+			   </div>  
+			</div>
+		</div>
+	</body>
+</html>
